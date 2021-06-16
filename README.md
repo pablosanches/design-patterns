@@ -1,12 +1,12 @@
 # Design Patterns
-## _Implementation of various Design Patterns in PHP._
+## _Implementation of various Design Patterns in PHP_
 
 [![Build Status](https://travis-ci.org/pablosanches/design-patterns.svg?branch=master)](https://travis-ci.org/pablosanches/design-patterns)
 
 ## Design Patterns implemented
 
-- Abstract Factory;
-- Adapter;
+    - Abstract Factory;
+    - Adapter;
 
 ## Installation
 
@@ -21,7 +21,7 @@ composer install
 
 ## Usage
 
-##Abstract Factory.
+### Abstract Factory.
 ```php
 use PabloSanches\DesignPatterns\AbstractFactory\ConcreteFactory1;
 use PabloSanches\DesignPatterns\AbstractFactory\ConcreteFactory2;
@@ -53,7 +53,7 @@ $productB->usefulFunctionB();
 $productB->anotherUsefulFunctionB($productA);
 ```
 
-##Adapter.
+### Adapter.
 ```php
 use PabloSanches\DesignPatterns\Adapter\Target;
 use PabloSanches\DesignPatterns\Adapter\Adaptee;
