@@ -1,5 +1,5 @@
 {
-    "name": "pablosanches/abstract-factory",
+    "name": "pablosanches/design-patterns",
     "description": "Implementation of the AbstractFactory design pattern",
     "type": "library",
     "license": "MIT",
