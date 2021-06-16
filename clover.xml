@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1623885784">
+  <project timestamp="1623885784">
+    <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/AbstractFactory/AbstractFactory.php">
+      <metrics loc="9" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/AbstractFactory/AbstractProductA.php">
+      <metrics loc="7" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/AbstractFactory/AbstractProductB.php">
+      <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="PabloSanches\DesignPatterns\AbstractFactory">
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/AbstractFactory/ConcreteFactory1.php">
+        <class name="ConcreteFactory1" namespace="PabloSanches\DesignPatterns\AbstractFactory">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="11" type="method" name="createProductA" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="13" type="stmt" count="1"/>
+        <line num="16" type="method" name="createProductB" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <metrics loc="19" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/AbstractFactory/ConcreteFactory2.php">
+        <class name="ConcreteFactory2" namespace="PabloSanches\DesignPatterns\AbstractFactory">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="11" type="method" name="createProductA" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="13" type="stmt" count="1"/>
+        <line num="16" type="method" name="createProductB" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <metrics loc="19" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/AbstractFactory/ConcreteProductA1.php">
+        <class name="ConcreteProductA1" namespace="PabloSanches\DesignPatterns\AbstractFactory">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="9" type="method" name="usefulFunctionA" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="11" type="stmt" count="1"/>
+        <metrics loc="12" ncloc="12" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/AbstractFactory/ConcreteProductA2.php">
+        <class name="ConcreteProductA2" namespace="PabloSanches\DesignPatterns\AbstractFactory">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="9" type="method" name="usefulFunctionA" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="11" type="stmt" count="1"/>
+        <metrics loc="12" ncloc="12" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/AbstractFactory/ConcreteProductB1.php">
+        <class name="ConcreteProductB1" namespace="PabloSanches\DesignPatterns\AbstractFactory">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="10" type="method" name="usefulFunctionB" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="12" type="stmt" count="1"/>
+        <line num="15" type="method" name="anotherUsefulFunctionB" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/AbstractFactory/ConcreteProductB2.php">
+        <class name="ConcreteProductB2" namespace="PabloSanches\DesignPatterns\AbstractFactory">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="10" type="method" name="usefulFunctionB" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="12" type="stmt" count="1"/>
+        <line num="15" type="method" name="anotherUsefulFunctionB" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+    </package>
+    <package name="PabloSanches\DesignPatterns\Adapter">
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/Adapter/Adaptee.php">
+        <class name="Adaptee" namespace="PabloSanches\DesignPatterns\Adapter">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="7" type="method" name="specificRequest" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="9" type="stmt" count="2"/>
+        <metrics loc="10" ncloc="10" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/Adapter/Adapter.php">
+        <class name="Adapter" namespace="PabloSanches\DesignPatterns\Adapter">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="12" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="17" type="method" name="request" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/Adapter/Target.php">
+        <class name="Target" namespace="PabloSanches\DesignPatterns\Adapter">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="7" type="method" name="request" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="9" type="stmt" count="1"/>
+        <metrics loc="10" ncloc="10" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+    </package>
+    <metrics files="12" loc="169" ncloc="169" classes="9" methods="14" coveredmethods="14" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="31" coveredelements="31"/>
+  </project>
+</coverage>
