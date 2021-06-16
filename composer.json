@@ -1,0 +1,24 @@
+{
+    "name": "pablosanches/abstract-factory",
+    "description": "Implementation of the AbstractFactory design pattern",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pablo Sanches",
+            "email": "sanches.webmaster@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PabloSanches\\DesignPatterns\\": "src"
+        }
+    }
+}
