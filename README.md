@@ -21,7 +21,7 @@ composer install
 
 ## Usage
 
-##Abstract Factory.
+## Abstract Factory.
 ```php
 use PabloSanches\DesignPatterns\AbstractFactory\ConcreteFactory1;
 use PabloSanches\DesignPatterns\AbstractFactory\ConcreteFactory2;
@@ -53,7 +53,7 @@ $productB->usefulFunctionB();
 $productB->anotherUsefulFunctionB($productA);
 ```
 
-##Adapter.
+## Adapter.
 ```php
 use PabloSanches\DesignPatterns\Adapter\Target;
 use PabloSanches\DesignPatterns\Adapter\Adaptee;
