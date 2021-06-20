@@ -6,8 +6,9 @@
 
 ## Design Patterns implemented
 
-    - Abstract Factory;
-    - Adapter;
+    - Abstract Factory
+    - Adapter
+    - Builder
 
 ## Installation
 
@@ -72,6 +73,37 @@ Install the dependencies and devDependencies and start the server.
         // Prints: "Adapter: (TRANSLATED) Special behavior of the Adaptee."
         $adapter = new Adapter($adaptee);
         echo $adapter->request()
+    ```
+### Builder
+    ```php
+        use PabloSanches\DesignPatterns\Builder\ConcreteBuilder1;
+        use PabloSanches\DesignPatterns\Builder\Director;
+
+        // Prints: "Product parts: PartA1"
+        $director = new Director();
+        $builder = new ConcreteBuilder1();
+        $director->setBuilder($builder);
+
+        $director->buildMinimalViableProduct();
+        echo $builder->getProduct()->listParts();
+
+        // Prints: "Product parts: PartA1, PartB1, PartC1"
+        $director = new Director();
+        $builder = new ConcreteBuilder1();
+        $director->setBuilder($builder);
+
+        $director->buildFullFeaturedProduct();
+        echo $builder->getProduct()->listParts();
+
+        // Prints: "Product parts: PartA1, PartC1"
+        $director = new Director();
+        $builder = new ConcreteBuilder1();
+        $director->setBuilder($builder);
+
+        $builder->producePartA();
+        $builder->producePartC();
+
+        echo $builder->getProduct()->listParts();
     ```
 
 ### That's it! Now enjoy it! ;)
