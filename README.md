@@ -9,6 +9,7 @@
     - Abstract Factory
     - Adapter
     - Builder
+    - Bridge
 
 ## Installation
 
@@ -104,6 +105,25 @@ Install the dependencies and devDependencies and start the server.
         $builder->producePartC();
 
         echo $builder->getProduct()->listParts();
+    ```
+
+### Bridge
+    ```php
+        use PabloSanches\DesignPatterns\Bridge\Abstraction;
+        use PabloSanches\DesignPatterns\Bridge\ConcreteImplementationA;
+        use PabloSanches\DesignPatterns\Bridge\ConcreteImplementationB;
+        use PabloSanches\DesignPatterns\Bridge\ExtendedAbstraction;
+
+        // Prints: "Abstraction: Base operation with:ConcreteImplementationA: Here's the result on the platform A."
+        $implementation = new ConcreteImplementationA();
+        $abstraction = new Abstraction($implementation);
+
+        echo $abstraction->operation();
+
+        // Prints: "ExtendedAbstraction: Extended operation with:ConcreteImplementationA: Here's the result on the platform B."
+        $implementation = new ConcreteImplementationB();
+        $abstraction = new ExtendedAbstraction($implementation);
+        echo $abstraction->operation();
     ```
 
 ### That's it! Now enjoy it! ;)
