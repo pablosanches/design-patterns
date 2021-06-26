@@ -6,6 +6,7 @@
 
 ## Design Patterns implemented
 
+    - Factory
     - Abstract Factory
     - Adapter
     - Builder
@@ -23,6 +24,20 @@ Install the dependencies and devDependencies and start the server.
     ```
 
 ## Usage
+
+### Factory
+    ```php
+        use PabloSanches\DesignPatterns\Factory\ConcreteCreator1;
+        use PabloSanches\DesignPatterns\Factory\ConcreteCreator2;
+
+        // Prints: Creator: The same creator's code has just worked with {Result of the ConcreteProduct1}
+        $operation = new ConcreteCreator1();
+        echo $operation->someOperation();
+
+        // Prints: Creator: The same creator's code has just worked with {Result of the ConcreteProduct2}
+        $operation = new ConcreteCreator2();
+        echo $operation->someOperation();
+    ```
 
 ### Abstract Factory
     ```php
