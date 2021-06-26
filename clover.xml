@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1624325042">
-  <project timestamp="1624325042">
+<coverage generated="1624717509">
+  <project timestamp="1624717509">
     <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/AbstractFactory/AbstractFactory.php">
       <metrics loc="9" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
@@ -194,6 +194,52 @@
         <metrics loc="12" ncloc="12" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
     </package>
-    <metrics files="21" loc="326" ncloc="323" classes="16" methods="29" coveredmethods="29" conditionals="0" coveredconditionals="0" statements="45" coveredstatements="45" elements="74" coveredelements="74"/>
+    <package name="PabloSanches\DesignPatterns\Factory">
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/Factory/ConcreteCreator1.php">
+        <class name="ConcreteCreator1" namespace="PabloSanches\DesignPatterns\Factory">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="10" type="method" name="factoryMethod" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="12" type="stmt" count="1"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/Factory/ConcreteCreator2.php">
+        <class name="ConcreteCreator2" namespace="PabloSanches\DesignPatterns\Factory">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="10" type="method" name="factoryMethod" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="12" type="stmt" count="1"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/Factory/ConcreteProduct1.php">
+        <class name="ConcreteProduct1" namespace="PabloSanches\DesignPatterns\Factory">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="9" type="method" name="operation" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="11" type="stmt" count="1"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/Factory/ConcreteProduct2.php">
+        <class name="ConcreteProduct2" namespace="PabloSanches\DesignPatterns\Factory">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="9" type="method" name="operation" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="11" type="stmt" count="1"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/Factory/Creator.php">
+        <class name="Creator" namespace="PabloSanches\DesignPatterns\Factory">
+          <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="9" type="method" name="someOperation" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="11" type="stmt" count="2"/>
+        <line num="12" type="stmt" count="2"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+    </package>
+    <file name="/var/www/html/pablosanches/design-patterns/src/PabloSanches/DesignPatterns/Factory/Product.php">
+      <metrics loc="7" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="27" loc="398" ncloc="395" classes="21" methods="34" coveredmethods="34" conditionals="0" coveredconditionals="0" statements="51" coveredstatements="51" elements="85" coveredelements="85"/>
   </project>
 </coverage>
